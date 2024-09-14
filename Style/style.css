@@ -1,0 +1,36 @@
+
+.centrar{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.titulo {
+    background-color: aqua;
+    padding: 10px 20px; /* Espaciado alrededor del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex;
+    justify-content: center;
+}
+article{
+background-color: darkgray;
+  width: 400px; /* Ancho del cuadro */
+  height: 400px; /* Altura del cuadro */
+}
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* responsivo para telefonos */
+@media (max-width: 600px) {
+    .cuadro {
+        width: 90%; 
+        height: auto; 
+    }
+    .titulo {
+        text-align: center;
+        margin-top: 20px;
+        background-color: aqua;
+    }
+}
